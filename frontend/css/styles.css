@@ -1,12 +1,19 @@
 body {
-    background-color: #f8f9fa;
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
-.register-container, .login-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+select {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
 }
